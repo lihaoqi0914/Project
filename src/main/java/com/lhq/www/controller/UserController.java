@@ -32,6 +32,7 @@ public class UserController {
 
         userService.addUser(user);
         return "login";
+        //
     }
 
     @RequestMapping("/selectUser")
